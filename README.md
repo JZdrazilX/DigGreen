@@ -21,11 +21,12 @@ Segmentation is crucial for isolating the plants from their background, effectiv
 ### Block (E): Health Estimation
 After segmentation, this block estimates various descriptors from the plants, providing insights into their 'health' status. By analyzing these descriptors, we can assess the overall well-being and condition of the plants throughout the study.
 
-## Note on Code Availability
+## Note on Code and Datasets Availability
 Please note that this repository does not contain the complete source code of our project. It is designed primarily to showcase various components of our pipeline, such as data preparation, augmentation, and model training. If you are interested in accessing the full code, it is available upon request. To request access, please contact us directly, providing your affiliation and the purpose for which you intend to use the code.
 
 ## Contacts
 Machine leanring oriented questions: jan.zdrazil@vsb.cz
+
 Plant oriented questions: nuria.de@upol.cz
 
 
