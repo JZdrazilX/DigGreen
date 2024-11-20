@@ -1,10 +1,21 @@
-# The Digital Greenhouse: Harnessing AI for Advanced Plant Growth Monitoring and Prediction
+# Next-generation high-throughput phenotyping with trait prediction through adaptable multi-task computational intelligence
 ## About:
-The "digital greenhouse" represents a pioneering approach in precision agriculture that redefines plant growth management through an AI-driven pipeline. This study takes place in an advanced laboratory environment where plant cultivation is carefully carried out under controlled conditions, ensuring the reliability and accuracy of the data collection. Our methodology integrates machine learning processes, including object detection, image time series prediction, image segmentation, plant descriptor estimation, and comprehensive result validation. The aim is to transcend mere observation and venture into proactive prediction and influence of plant growth trajectories. We extrapolate future growth patterns through sequential plant imaging and offer predictive insights into plant health and morphology. Segmentation and detailed analysis of plant images yield comprehensive descriptors that provide a deep understanding of plant health. The validation phase of our methodology consolidates its robustness and ensures the accuracy and practical relevance of our predictive models in controlled agricultural environments. This research represents a significant advance in digital agriculture. It provides practitioners with a sophisticated and comprehensive set of instruments to better monitor and predict plant growth, setting a new benchmark for technology-enabled cultivation. 
+Phenotypes, defining an organism's behaviour and physical attributes, arise from the
+complex, dynamic interplay of genetics, development, and environment, whose interactions
+make it enormously challenging to forecast future phenotypic traits of a plant at a given
+moment. This work reports AMULET, a modular approach that uses imaging-based high-
+throughput phenotyping and machine learning to predict morphological and physiological
+plant traits hours to days before they are visible. AMULET streamlines the phenotyping
+process by integrating plant detection, prediction, segmentation, and data analysis, enhancing
+workflow efficiency and reducing time. The machine learning models used data from over
+30,000 plants, using the Arabidopsis thaliana-Pseudomonas syringae pathosystem.
+AMULET also demonstrated its adaptability by accurately detecting and predicting
+phenotypes of in vitro potato plants after minimal fine-tuning with a small dataset. The
+general approach implemented through AMULET streamlines phenotyping and will improve
+breeding programs and agricultural management by enabling pre-emptive interventions
+optimising plant health and productivity.
 
 ![pipe](https://github.com/user-attachments/assets/d453ec31-9e8d-4b6b-8bda-d1a7d6d819dd)
-
-<img width="2857" alt="pipeline" src="https://github.com/JZdrazilX/DigGreen/assets/91844670/407b5bab-24b3-4287-a88b-0e52747e523c">
 
 ## Overview of Project Blocks:
 ### Block (A): Data Preparation
