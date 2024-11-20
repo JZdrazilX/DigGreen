@@ -15,7 +15,7 @@ def main():
     to the specified output directory.
     """
     # Load configuration
-    path_to_config = '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/configs/paramsSEG.yaml'
+    path_to_config = '../configs/paramsSEG.yaml'
     config = configloader.load_config(path_to_config)
 
     # Set computation device
