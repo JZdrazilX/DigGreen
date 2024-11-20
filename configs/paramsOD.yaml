@@ -5,7 +5,7 @@ dataloading:
   data_path: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_input_data/plantdetection'
 
 model:
-  path_to_model: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/trained_models/ODmodel.pth'
+  path_to_model: 'Contact us for pretrained models'
   num_classes: 2
   num_feature_maps: 5
   sizes: [32, 64, 128, 256, 512]
