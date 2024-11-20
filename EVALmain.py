@@ -14,7 +14,7 @@ def main():
     It computes the Mean Squared Error (MSE) between the standardized model predictions and 
     the true labels for each sample (image), resulting in one MSE value per image.
     """
-    path_to_config = '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/configs/paramsEVAL.yaml'
+    path_to_config = '../configs/paramsEVAL.yaml'
     config = configloader.load_config(path_to_config)
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
