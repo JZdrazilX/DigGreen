@@ -2,7 +2,7 @@ dataloading:
   batch_size: 5
   num_workers: 4
   shuffle: True
-  data_path: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_input_data/plantdetection'
+  data_path: '../showcase_input_data/plantdetection'
 
 model:
   path_to_model: 'Contact us for pretrained models'
@@ -13,5 +13,5 @@ model:
   backbone: 'resnet50'
 
 datasaving:
-  output_folder: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_output_data/plantdetection'
+  output_folder: '../showcase_output_data/plantdetection'
 
