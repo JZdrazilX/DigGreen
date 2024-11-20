@@ -7,7 +7,7 @@ dataloading:
   data_path_csv: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_input_data/planteval/labels.csv'
 
 model:
-  path_to_model: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/trained_models/EVALmodel.pt'
+  path_to_model: 'Contact us for pretrained models'
   num_outputs: 24
   model_name: 'ghostnetv2_160.in1k'
   pretrained: True
