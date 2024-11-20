@@ -1,0 +1,15 @@
+dataloading:
+  batch_size: 5
+  num_workers: 4
+  shuffle: True
+  data_path: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_input_data/plantsegmentation'
+  resize_size: [512, 512]
+
+model:
+  path_to_model: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/trained_models/PlantSegmentationModel.pt'
+  num_classes: 2
+  encoder: 'efficientnet-b7'
+  encoder_weights: 'advprop'
+
+datasaving:
+  output_folder: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_output_data/plantsegmentation'

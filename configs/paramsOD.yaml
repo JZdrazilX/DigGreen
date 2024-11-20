@@ -1,0 +1,17 @@
+dataloading:
+  batch_size: 5
+  num_workers: 4
+  shuffle: True
+  data_path: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_input_data/plantdetection'
+
+model:
+  path_to_model: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/trained_models/ODmodel.pth'
+  num_classes: 2
+  num_feature_maps: 5
+  sizes: [32, 64, 128, 256, 512]
+  aspect_ratios: [0.5, 1.0, 2.0]
+  backbone: 'resnet50'
+
+datasaving:
+  output_folder: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_output_data/plantdetection'
+

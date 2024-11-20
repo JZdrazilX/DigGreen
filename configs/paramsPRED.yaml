@@ -1,0 +1,18 @@
+dataloading:
+  batch_size: 1
+  num_workers: 4
+  shuffle: True
+  data_path: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_input_data/plantprediction'
+  resize_size: [224, 224]
+
+model:
+  path_to_model: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/trained_models/PREDmodel.ckpt'
+  in_shape: [2, 3, 224, 224]
+  hid_S: 64
+  hid_T: 256
+  N_S: 4
+  N_T: 8
+  model_type: 'gSTA'
+
+datasaving:
+  output_folder: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_output_data/plantprediction'
