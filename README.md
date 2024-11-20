@@ -18,28 +18,31 @@ optimising plant health and productivity.
 ![pipe](https://github.com/user-attachments/assets/d453ec31-9e8d-4b6b-8bda-d1a7d6d819dd)
 
 ## Overview of Project Blocks:
-### Block (A): Data Preparation
-This block covers the initial stages of our project pipeline, focusing on data gathering, preprocessing, and augmentation. Here, we collect and refine the data needed for our models, ensuring it's optimized for further analysis and processing.
 
-### Block (B): Object Detection
+### Block (1): Object Detection
 In this phase, we deploy an object detection model to accurately localize Arabidopsis Thaliana plants in various plate configurations. This model helps us identify and track the position of plants throughout our experiments.
 
-### Block (C): Image Prediction
+### Block (2): Image Prediction
 Our image prediction module uses data from two previous timestamps to predict the future appearance of the plants. This predictive model aids in understanding plant growth patterns and potential developmental changes.
 
-### Block (D): Segmentation
+### Block (3): Segmentation
 Segmentation is crucial for isolating the plants from their background, effectively focusing analysis on the plant itself. This step ensures that our models analyze only the relevant plant data, free from any background noise.
 
-### Block (E): Health Estimation
+### Block (4): Health Estimation
 After segmentation, this block estimates various descriptors from the plants, providing insights into their 'health' status. By analyzing these descriptors, we can assess the overall well-being and condition of the plants throughout the study.
 
+![pip_pot](https://github.com/user-attachments/assets/3271234e-b055-4e3b-876d-ee6d8579d62b)
+
+We understand the importance of practical applications for AI technologies, which is why part of our pipeline was specifically adapted for in vitro potato plants (see image above). This demonstrates that with minimal effort, such as fine-tuning, our approach can achieve promising results across various crop types, highlighting its versatility and potential for broader agricultural applications.
+
+
 ## Note on Code and Datasets Availability
-Please note that this repository does not contain the complete source code or datasets of our project. It is designed primarily to showcase various components of our pipeline, such as data preparation, augmentation, and model training. If you are interested in accessing the full code, it is available upon request. To request access, please contact us directly, providing your affiliation and the purpose for which you intend to use the code.
+Please note that this repository does not contain the complete source code or datasets of our project. It is designed primarily to showcase various components of our pipeline, such as data preparation, and usage of models. If you are interested in accessing the full code and dataset, it is available upon request. To request access, please contact us directly, providing your affiliation and the purpose for which you intend to use the code.
 
 ## Contacts
+Plant oriented and dataset questions: nuria.de@upol.cz
 Machine leanring oriented questions: jan.zdrazil@vsb.cz
 
-Plant oriented questions: nuria.de@upol.cz
 
 
 
