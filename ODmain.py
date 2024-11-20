@@ -14,7 +14,7 @@ def main():
     visualize the detections, and save the output images with bounding boxes.
     """
 
-    path_to_config = '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/configs/paramsOD.yaml'
+    path_to_config = '../configs/paramsOD.yaml'
     config = configloader.load_config(path_to_config)
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
