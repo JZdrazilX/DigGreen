@@ -3,8 +3,8 @@ dataloading:
   num_workers: 4
   shuffle: False
   resize_size: [224, 224]
-  data_path_image: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_input_data/planteval/plantevalimages'
-  data_path_csv: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/showcase_input_data/planteval/labels.csv'
+  data_path_image: '../showcase_input_data/planteval/plantevalimages'
+  data_path_csv: '../showcase_input_data/planteval/labels.csv'
 
 model:
   path_to_model: 'Contact us for pretrained models'
