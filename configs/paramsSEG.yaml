@@ -6,7 +6,7 @@ dataloading:
   resize_size: [512, 512]
 
 model:
-  path_to_model: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/trained_models/PlantSegmentationModel.pt'
+  path_to_model: 'Contact us for pretrained models'
   num_classes: 2
   encoder: 'efficientnet-b7'
   encoder_weights: 'advprop'
