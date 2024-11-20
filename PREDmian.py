@@ -8,7 +8,7 @@ from utils import PREDdataloader, configloader
 from models.loadmodelPREDIC import load_model_prediction  
 
 def main():
-    path_to_config = '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/configs/paramsPRED.yaml'
+    path_to_config = '../configs/paramsPRED.yaml'
     config = configloader.load_config(path_to_config)
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
