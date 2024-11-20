@@ -6,7 +6,7 @@ dataloading:
   resize_size: [224, 224]
 
 model:
-  path_to_model: '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/trained_models/PREDmodel.ckpt'
+  path_to_model: 'Contact us for pretrained models'
   in_shape: [2, 3, 224, 224]
   hid_S: 64
   hid_T: 256
