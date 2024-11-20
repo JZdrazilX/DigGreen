@@ -4,7 +4,7 @@ import sys
 import os
 
 # Code copied from https://github.com/chengtan9907/OpenSTL.git Please visit for original implementation
-
+# to load needed modules use git clone https://github.com/chengtan9907/OpenSTL.git
 sys.path.insert(0, '/Users/janzdrazil/Desktop/new_age_image/PLANTAIGIT/OpenSTL')
 
 from openstl.modules import (
